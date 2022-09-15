@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from '../app-routing.module';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AngularSvgIconModule } from 'angular-svg-icon';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     CommonModule,
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    AngularSvgIconModule.forRoot()
   ],
   exports: [
     NavbarComponent

@@ -9,7 +9,8 @@ export class NavbarComponent implements OnInit {
   // @Input() scroll: (args: any) => void;
   @Input() scroll: any;
 
-  constructor() { }
+  constructor() {}
+
 
   ngOnInit(): void {
   }
